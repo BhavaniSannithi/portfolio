@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavani Sannithi - Portfolio</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1E1E2F; 
+            color: #f4f4f4;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: linear-gradient(135deg, #ff79c6, #6272a4); 
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+       
+        section {
+            margin: 40px 0;
+            padding: 30px;
+            background-color: #282a36;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ff79c6; 
+            border-bottom: 2px solid #50fa7b; 
+            padding-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #cfcfcf; 
+        }
+
+       
+        ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding-left: 20px;
+            color: #f4f4f4;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+      
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project h3 {
+            font-size: 1.5rem;
+            color: #8be9fd; 
+            margin-bottom: 8px;
+        }
+
+        .project p {
+            margin-bottom: 10px;
+            color: #cfcfcf;
+        }
+
+        .project a {
+            color: #50fa7b; 
+            text-decoration: none;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .contact-info p {
+            margin: 8px 0;
+            font-size: 1rem;
+        }
+
+        .contact-info a {
+            color: #ff79c6;
+            text-decoration: none;
+        }
+
+       
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #44475a; 
+            color: #f8f8f2;
+            margin-top: 40px;
+            border-radius: 8px;
+        }
+
+        
+        .testimonials {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .testimonial-card {
+            background-color: #44475a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            width: 45%;
+            text-align: center;
+            color: #f8f8f2;
+        }
+
+        .testimonial-card img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+
+        .testimonial-card h4 {
+            font-size: 1.2rem;
+            color: #ff79c6;
+        }
+
+        .testimonial-card p {
+            font-size: 0.9rem;
+            color: #cfcfcf;
+        }
+
+      
+        @media (max-width: 768px) {
+            .testimonials {
+                flex-direction: column;
+            }
+
+            .testimonial-card {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            section h2 {
+                font-size: 1.6rem;
+            }
+
+            .project h3 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bhavani Sannithi</h1>
+</header>
+
+<div class="container">
+
+   
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hello! I am Bhavani Sannithi, a dedicated developer with expertise in C, Python, SQL, and various internet technologies. Currently pursuing a B.Tech in Computer Science and Engineering, I am passionate about developing innovative and user-friendly applications. I love solving complex problems and staying updated with the latest trends in technology.</p>
+    </section>
+
+   
+    <section id="skills-interests">
+        <h2>Skills and Interests</h2>
+        <h3>Technical Skills:</h3>
+        <ul>
+            <li>Programming Languages: C, Python, SQL, HTML, CSS, JavaScript</li>
+            <li>Frameworks: React, Angular, Bootstrap, Tailwind CSS</li>
+            <li>Design Tools: Canva, Figma</li>
+        </ul>
+
+        <h3>Interests:</h3>
+        <ul>
+            <li>Cloud Computing</li>
+            <li>UI/UX Design</li>
+            <li>Data Science</li>
+        </ul>
+    </section>
+
+  
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Image Captioning System</h3>
+            <p>Developed an end-to-end system for generating descriptive captions for images using CNN and LSTM models. Achieved state-of-the-art performance on the ChestXray dataset.</p>
+        </div>
+
+        <div class="project">
+            <h3>Reducing Agricultural Pesticides To Increase Human Lifespan</h3>
+            <p>A full stack development project focusing on sustainable farming practices using Angular and Oracle. <a href="https://github.com/BhavaniSannithi" target="_blank">GitHub Link</a></p>
+        </div>
+
+        <div class="project">
+            <h3>Number Guessing Game</h3>
+            <p>Created an interactive number guessing game using HTML, CSS, and JavaScript. <a href="https://github.com/BhavaniSannithi" target="_blank">GitHub Link</a></p>
+        </div>
+
+        <div class="project">
+            <h3>21 Blast Challenge</h3>
+            <p>Developed a logic-based game with real-time input validation using JavaScript. <a href="https://github.com/BhavaniSannithi" target="_blank">GitHub Link</a></p>
+        </div>
+    </section>
+    <section id="certifications-achievements">
+        <h2>Certifications</h2>
+        <ul>
+            <li>SQL and Relational Database course issued by Cognitive Class</li>
+            <li>Prompt Engineering for Everyone certification from Cognitive Class and IBM Developer Skills Network</li>
+            <li>Machine Learning with Python: A Practical Introduction and Data Science and Machine Learning Capstone Project issued by edX</li>
+            <li>Machine Learning in the Cloud with AWS Batch and Introduction to AWS Solutions issued by W3 Schools</li>
+        </ul>
+    
+        <h2>Accomplishments</h2>
+        <ul>
+            <li>Won 2nd prize in the college’s essay writing competition, showcasing exceptional writing skills and the ability to articulate thoughts and ideas effectively</li>
+            <li>Achieved 338th rank in the CodeKaze 2024 challenge, an all-India competition, demonstrating strong problem-solving skills and coding proficiency</li>
+            <li>Successfully won a hackathon, highlighting teamwork and innovative thinking</li>
+        </ul>
+    </section>
+    
+    
+
+    <!-- Contact Information Section -->
+    <section id="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:sannithibhavani33@gmail.com">sannithibhavani33@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/bhavani-sannithi-8a661727a" target="_blank">linkedin.com/in/bhavani-sannithi-8a661727a</a></p>
+        <p>GitHub: <a href="https://github.com/BhavaniSannithi" target="_blank">github.com/BhavaniSannithi</a></p>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 Bhavani Sannithi. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
